@@ -81,8 +81,8 @@ const FoodCard = ({
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle">
-                <div className="flex bg-white p-4">
-                  <div className="flex align-middle p-4 w-3/12">
+                <div className="sm:grid md:flex lg:flex bg-white p-4">
+                  <div className="sm:h-32 w-3/12 p-4">
                     <img
                       className="rounded"
                       src={image}
@@ -91,7 +91,7 @@ const FoodCard = ({
                       alt={title}
                     />
                   </div>
-                  <div className="p-4 w-9/12">
+                  <div className="w-9/12 p-4">
                     <h2 className="text-4xl font-medium pb-3">{title}</h2>
                     <p>{description}</p>
                     <h2 className="text-3xl font-medium py-3">Ingredient : </h2>

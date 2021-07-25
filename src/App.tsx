@@ -53,7 +53,7 @@ function App() {
           )}
 
           {foods === null && (
-            <h1 className="text-6xl text-center mx-auto mt-32 text-red-600">
+            <h1 className="text-6xl text-center mx-auto mt-20 text-red-600">
               {error ? error : "Please input a valid recipe name or letter!"}
             </h1>
           )}
