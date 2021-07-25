@@ -9,9 +9,10 @@ const Header = ({ searchText }: ISearchFood) => {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     searchText(text);
+    setText('')
   };
   return (
-    <div className="h-header bg-red-50 bg-cover bg-no-repeat bg-center bg-hero-pattern">
+    <div className="h-header bg-red-50 bg-cover bg-no-repeat bg-center bg-hero-pattern border-b border-solid border-gray-100">
       <div className="align-middle pt-24">
         <h2 className="hidden md:flex lg:flex justify-center align-middle text-gray-900 text-5xl font-bold py-6">
           Best Food waiting for your belly

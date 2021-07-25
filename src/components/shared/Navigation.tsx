@@ -115,7 +115,7 @@ const Navigation = () => {
                                   active
                                     ? "bg-gray-100 flex justify-center"
                                     : "flex justify-centerr",
-                                  "flex justify-center px-4 py-2 text-md text-gray-900 font-medium"
+                                  "flex justify-center px-4 py-2 text-md text-gray-900 font-normal"
                                 )}
                               >
                                 Your Profile
