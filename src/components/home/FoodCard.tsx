@@ -82,7 +82,7 @@ const FoodCard = ({
             >
               <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle">
                 <div className="flex bg-white p-4">
-                  <div className="p-4 w-3/12">
+                  <div className="flex align-middle p-4 w-3/12">
                     <img
                       className="rounded"
                       src={image}
@@ -100,7 +100,9 @@ const FoodCard = ({
                       <li className={className}>{ingredient2}</li>
                       <li className={className}>{ingredient3}</li>
                       <li className={className}>{ingredient4}</li>
-                      <li className={className}>{ingredient5}</li>
+                      {ingredient5 ? (
+                        <li className={className}>{ingredient5}</li>
+                      ) : null}
                       {ingredient6 ? (
                         <li className={className}>{ingredient6}</li>
                       ) : null}
